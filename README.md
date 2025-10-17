@@ -18,13 +18,14 @@ Site vitrine statique présentant le travail de **Robbie Lens**, photographe pro
 HTML-CSS VERSION FINAL SITE/
 ├── images/
 │   ├── portfolio/
+│   ├── favicon.ico
 │   ├── instagram.png
 │   ├── logo.png
 │   ├── robbie-lens.png
 │   └── twitter.png
 │
 ├── scripts/
-│   └── lightbox.js
+│   └── script.js
 │
 ├── style/
 │   ├── a-propos.css
@@ -32,10 +33,12 @@ HTML-CSS VERSION FINAL SITE/
 │   ├── portfolio.css
 │   └── style.css
 │
+├── .gitignore
 ├── a-propos.html
 ├── index.html
 ├── portfolio.html
 └── README.md
+
 ```
 
 ---
@@ -64,14 +67,13 @@ Aucune installation nécessaire.
 
 ---
 
-## Déploiement
+## 🌍 Déploiement
 
 Le site est hébergé gratuitement sur **[GitHub Pages](https://pages.github.com/)**.  
 
 **Accéder au site en ligne :**  
-[https://ton-utilisateur.github.io/robbie-lens/](https://ton-utilisateur.github.io/robbie-lens/)
+[https://medfc.github.io/robbie-lens-site/index.html](https://medfc.github.io/robbie-lens-site/index.html)
 
-*(Remplace `ton-utilisateur` par ton nom d’utilisateur GitHub exact, et `robbie-lens` par le nom du dépôt si nécessaire.)*
 
 
 

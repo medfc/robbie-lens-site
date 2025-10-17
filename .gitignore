@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Fichiers temporaires ou de sauvegarde
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Fichiers des éditeurs
+.vscode/
+.idea/
+
+# Cache local
+.cache/

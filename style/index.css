@@ -1,0 +1,152 @@
+/* ============================================================
+   PAGE ACCUEIL
+   ============================================================ */
+
+/* ---------- HERO ---------- */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 120px 20px 140px;
+  max-width: 1200px;
+  margin: auto;
+  color: var(--color-text-light);
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hero h1 {
+  margin-bottom: 20px;
+}
+
+.hero p {
+  margin-bottom: 40px; 
+  max-width: 500px;
+  line-height: 1.7;
+  font-size: 1.1rem;
+}
+
+.hero-img {
+  flex: 1;
+  max-width: 400px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.hero-img:hover {
+  transform: scale(1.03);
+}
+
+/* ---------- GALERIE ---------- */
+.accueil-photos {
+  background-color: #fff;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  margin-bottom: 40px;
+  
+}
+
+.accueil-photos h2 {
+  color: var(--color-accent);
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------- CONTACT ---------- */
+.section-contact {
+  background-color: var(--color-bg);
+  color: var(--color-text-light);
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.section-contact h2 {
+  color: var(--color-accent);
+  margin-bottom: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+input, textarea {
+  padding: 15px;
+  font-size: 1rem; 
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  transition: box-shadow 0.25s ease;
+}
+
+input:focus, textarea:focus {
+  box-shadow: 0 0 0 2px var(--color-accent);
+}
+
+button.cta {
+  font-size: 1rem; 
+  letter-spacing: 0.5px;
+  width: fit-content;
+  margin: 20px auto 0;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 20px;
+  }
+
+  .hero-img {
+    max-width: 100%;
+  }
+}
+
